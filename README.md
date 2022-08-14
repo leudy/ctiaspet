@@ -1,4 +1,4 @@
-# app citas pets
+# App citas pets
 
 This project was build for demo propose for using tailwind css and react
 
@@ -6,4 +6,4 @@ This project was build for demo propose for using tailwind css and react
 
 In the project directory, you can run:
 
-### `npm start`
+<!-- ### `npm start` -->
