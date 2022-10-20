@@ -15,7 +15,7 @@ function App() {
     fetch("./data.json")
       .then((response) => response.json())
       .then((data) => {
-        setAppoints(data);
+        setAppoints([]);
       });
   }, []);
 
@@ -61,7 +61,7 @@ function App() {
           ChangeOderBy={SetOrderBy}
         />
         <ul className="dived-y devide-gray-200">
-          {filterAppoitments.length === 0 && <p>Cargando...</p>}
+          {/* {filterAppoitments.length === 0 && <p>Cargando...</p>} */}
           {filterAppoitments.map((app) => {
             return (
               <AppoitmentInfo

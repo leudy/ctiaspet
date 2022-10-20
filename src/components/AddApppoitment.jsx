@@ -8,7 +8,7 @@ export const AddApppoitment = ({ lastId, OnSendAppointment }) => {
     aptTime: "",
     aptNotes: "",
   };
-  const [ToggleForm, setToggleForm] = useState(false);
+  const [ToggleForm, setToggleForm] = useState(true);
   const [form, SetForm] = useState(EmptyForm);
   const SaveNewAppointment = (data) => {
     const appoitmentinfo = {
