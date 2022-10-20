@@ -106,7 +106,7 @@ export const Search = ({
               aria-haspopup="true"
               aria-expanded="true"
             >
-              Sort By <BiCaretDown className="ml-2" />
+              Ordernar por <BiCaretDown className="ml-2" />
             </button>
             <DropDown
               toggle={ToggleSort}

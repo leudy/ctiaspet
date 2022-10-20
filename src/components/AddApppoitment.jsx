@@ -30,8 +30,7 @@ export const AddApppoitment = ({ lastId, OnSendAppointment }) => {
         }}
       >
         <div>
-          <BiCalendarPlus className="inline-block align-text-top" /> Add
-          Appointment
+          <BiCalendarPlus className="inline-block align-text-top" /> Agregar Cita
         </div>
       </button>
       {ToggleForm && (
